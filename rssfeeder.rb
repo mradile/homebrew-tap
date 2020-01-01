@@ -2,16 +2,16 @@
 class Rssfeeder < Formula
   desc ""
   homepage "https://github.com/mradile/rssfeeder"
-  version "0.3.7"
+  version "0.4.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mradile/rssfeeder/releases/download/0.3.7/rssfeeder_0.3.7_Darwin_x86_64.tar.gz"
-    sha256 "7e5a10530778f8aa967430e261e0987df478269e6171533be0e5ecb708870a0b"
+    url "https://github.com/mradile/rssfeeder/releases/download/0.4.0/rssfeeder_0.4.0_Darwin_x86_64.tar.gz"
+    sha256 "9051a1e3e00368609281b05bdbce80a17bdfa6e743b212996fdf24762cf31ddd"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mradile/rssfeeder/releases/download/0.3.7/rssfeeder_0.3.7_Linux_x86_64.tar.gz"
-      sha256 "c017b67b2a181d96548a2d2c37571d6771c33954e7f20748cefe464aba6b6520"
+      url "https://github.com/mradile/rssfeeder/releases/download/0.4.0/rssfeeder_0.4.0_Linux_x86_64.tar.gz"
+      sha256 "14a51b333fd17e86fd142e0cd43be321c0f57263ce1ee28c2a4437ca7c5764f9"
     end
   end
 
